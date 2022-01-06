@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background: #8ecae6;
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+
+h2 {
+    color: #023e8a;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#mainNavbar {
+    font-size: 1.4rem;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.2rem;
+    font-weight: 100;
+
+}
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: background 700ms;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+}
+
+.header {
+    margin-top: 100px;
+
+}
+
+.header p {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.header button {
+    color: #023e8a;
+    padding: 10px 60px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    border: none;
+    background-color: #e9c46a;
+}
+
+.header .phone {
+    color: #023e8a;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+.header h1 {
+    color: white;
+    padding-top: 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    border-top: 1px solid red;
+}
+
+.servicesSection {
+    width: 100vw;
+}
+
+.servicesContainer {
+    background-color: white;
+    width: 100vw;
+
+}
+
+.whySection {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+.whyDiv {
+    border-bottom: 1px solid black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.servicesContainer h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.aService {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+
+}
+
+.aService:link,
+a.Service:visited,
+a.Service:active {
+    text-decoration: none;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.imgService {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+
+
+.ourCompanySection p {
+    padding: 10px 30px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+.ourCompanySection {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+
+footer {
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+footer img {
+    width: 70%;
+}
+
+@media (min-width: 1200px) {
+    #mainNavbar {
+        font-size: 2rem;
+        font-weight: 100;
+        padding-top: 20px;
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+
+    .whyDiv {
+        border-left: 1px solid black;
+        border-bottom: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 300;
+        margin: none;
+        text-align: left;
+    }
+
+    #mainNavbar .navbar-brand {
+        color: #ea1c2c;
+        font-size: 1.6rem;
+        font-weight: 100;
+
+    }
+
+}
+
+@media (min-width: 900px) {
+    #mainNavbar .navbar-brand {
+        color: #ea1c2c;
+        font-size: 2rem;
+        font-weight: 100;
+
+    }
+
+    .header p {
+        color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify;
+        font-size: 1.3rem;
+    }
+
+    .header {
+        margin-top: 150px;
+
+    }
+
+    .aService {
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 50px;
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: white;
+    }
+}
+
+/*About CSS */
+.aboutSection {
+    margin-top: 70px;
+
+}
+
+.aboutDiv p {
+    color: #d9ed92;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.aboutSection .lead {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: justify;
+    padding: 10px;
+}
+
+.imgAbout {
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+h1 {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (min-width: 990px) {
+    #mainNavbar {
+        font-size: 1.5rem;
+        font-weight: 100;
+        padding-top: 20px;
+    }
+
+    #mainNavbar .navbar-brand {
+        color: #ea1c2c;
+        font-size: 2rem;
+        font-weight: 100;
+
+    }
+
+    .aboutDiv p {
+        color: #d9ed92;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-right: 150px;
+        padding-left: 20px;
+    }
+
+    h1 {
+        text-align: left;
+        padding-left: 20px;
+        font-size: 2rem;
+    }
+
+    .aboutSection .lead {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .aboutSection {
+        margin-top: 150px;
+
+    }
+}
+
+/*End About CSS*/
+/*Contact CSS*/
+.contactSection {
+    margin-top: 100px;
+    overflow: auto;
+    padding-bottom: 150px;
+}
+
+.divForm {
+    margin-top: 30px;
+}
+
+/*End Contact CSS*/
